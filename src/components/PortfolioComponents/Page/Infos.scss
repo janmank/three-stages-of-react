@@ -1,0 +1,108 @@
+.contact {
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gora-contact {
+    display: flex;
+    color: white;
+    padding: 20px 20px 20px 10%;
+    box-sizing: border-box;
+}
+
+.left-contact {
+    text-transform: uppercase;
+    height: 100px;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 50px;
+    text-align: center;
+}
+
+.right-contact {
+    text-transform: uppercase;
+    flex-basis: 60%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-top: 50px;
+    line-height: 40px;
+    color: #ebeeee;
+}
+.dol-contact {
+    display: flex;
+    color: white;
+    padding: 20px 20px 20px 10%;
+    box-sizing: border-box;
+}
+.wysylanie {
+    flex-basis: 55%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 50px;
+}
+.tweets {
+    flex-basis: 25%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-top: 50px;
+}
+.contact input,
+.contact textarea {
+    padding: 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 60%;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    color: #fff;
+    background-color: #11abb0;
+}
+label {
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.required {
+    color: #11abb0;
+}
+
+button.submit {
+    background-color: black;
+    color: white;
+    margin-left: 155px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.twetts-news,
+.address {
+    color: grey;
+    line-height: 30px;
+}
+
+.days-gone {
+    color: rgb(143, 28, 28);
+    text-decoration: none;
+}
+
+.link-con {
+    color: #11abb0;
+    text-decoration: none;
+}

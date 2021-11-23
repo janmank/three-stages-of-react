@@ -1,0 +1,21 @@
+.footer {
+  background-color:#191919;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.socials li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.socials li a { color: grey; }
+.socials li a:hover { color: white; }
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: rgb(85, 83, 83);
+  padding-bottom: 30px;
+}

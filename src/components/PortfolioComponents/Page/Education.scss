@@ -1,0 +1,116 @@
+.allThird {
+    display: flex;
+    background: white;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullThird {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 60%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e8e8e8;
+    /* border: 1px solid green; */
+}
+
+.headThird {
+    display: flex;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 30%;
+    text-align: left;
+    padding-right: 0;
+    margin-right: 0;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+}
+
+.headThird h1 {
+    margin-top: 10px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    color: #6e7881;
+    font-size: 18px;
+    /* border: 1px solid yellow; */
+    width: 80%;
+}
+
+.story h3 {
+    color: black;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.story .info {
+    font: 16px/24px 'ubuntu', serif;
+    color: #6e7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+.story .info span {
+    margin: 0 5px;
+}
+
+.bars {
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
+}
+.bars .skills {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+.bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background: #747272;
+    height: 50px;
+    border-radius: 5px;
+}
+.bars li em {
+    font: 15px 'oswald', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    top: -36px;
+}
+.bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    background: #313131;
+    display: inline-block;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+}
+.photoshop {
+    width: 10%;
+}
+.illustrator {
+    width: 20%;
+}
+.wordpress {
+    width: 30%;
+}
+.css {
+    width: 40%;
+}
+.html5 {
+    width: 50%;
+}
+.jquery {
+    width: 60%;
+}
